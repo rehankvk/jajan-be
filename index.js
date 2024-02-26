@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 })
 
 var corsOptions = {
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://jajan.duabelastkjtiga.my.id'],
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://jajan-fe.vercel.app/'],
     optionsSuccessStatus: 200
 }
 

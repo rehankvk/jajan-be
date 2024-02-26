@@ -154,7 +154,7 @@ const userController = {
         const { address } = req.body
 
         try {
-            const oldAddress = await Users.
+            const oldAddress = await Users
        } catch (error) {
             console.error(error)
         }
