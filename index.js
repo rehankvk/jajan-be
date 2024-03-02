@@ -3,7 +3,6 @@ import cors from "cors"
 import productRouter from "./src/router/products.js"
 import userRouter from "./src/router/users.js"
 import cartRouter from "./src/router/carts.js"
-// import db from "./src/config/db.js"
 
 
 const app = express()
